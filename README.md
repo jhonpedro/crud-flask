@@ -63,7 +63,6 @@ $ git clone https://github.com/jhonpedro/crud-hotels && cd crud-hotels
 **Follow the steps below**
 
 ```bash
-#Before you run docker-compose you have fill the ".env.example" and change it's name to just ".env"
 
 # Install dependencies
 $ pip install -r requeriments.txt
