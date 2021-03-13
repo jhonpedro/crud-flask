@@ -27,7 +27,7 @@ class Hotel(Resource):
     return {'message': 'hotel not found'}, 404
 
 
-  def post(self, id):
+  def post(self):
     data = Hotel.arguments.parse_args()
     new_hotel = HotelModel(**data)
 
