@@ -65,6 +65,9 @@ $ git clone https://github.com/jhonpedro/crud-hotels && cd crud-hotels
 ```bash
 
 # Install dependencies
+# Its good to be in a virtual environment before install
+# the dependencies. So, before the installation create an virtual
+# environment using your tool of preference for this task.
 $ pip install -r requeriments.txt
 
 # Start the project
